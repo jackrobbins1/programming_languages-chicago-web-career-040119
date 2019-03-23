@@ -43,6 +43,7 @@ def reformat_languages(languages)
       new_hash[one_lang] = valz
       if new_hash[one_lang][:style] == nil
         new_hash[one_lang][:style] = []
+        new_hash[one_lang][:style] << (type)
       else
         new_hash[one_lang][:style] << (type)
       end
