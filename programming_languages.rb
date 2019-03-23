@@ -38,4 +38,4 @@ def reformat_languages(languages)
   # your code here
 end
 
-puts lang_hash
+reformat_languages(lang_hash)
