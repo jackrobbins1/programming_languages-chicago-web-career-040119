@@ -42,7 +42,7 @@ def reformat_languages(languages)
       #binding.pry
       new_hash[one_lang] = valz
       new_hash[one_lang][:style] = []
-      new_hash[one_lang][:style] << type
+      new_hash[one_lang][:style].push(type)
     }
   }
   binding.pry
