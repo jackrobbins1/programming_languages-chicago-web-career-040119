@@ -48,7 +48,7 @@ def reformat_languages(languages)
       else
         new_hash[one_lang][:style] = []
         new_hash[one_lang][:style] << type
-        binding.pry
+        #binding.pry
       end
       #binding.pry
     }
