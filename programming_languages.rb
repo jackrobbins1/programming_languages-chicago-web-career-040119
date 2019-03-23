@@ -38,7 +38,7 @@ def reformat_languages(languages)
   new_hash = {}
 
   languages.each { |type, langz|
-    langz.each { ||
+    langz.each { |one_lang, valz|
       binding.pry
     }
   }
