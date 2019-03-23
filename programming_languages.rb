@@ -41,7 +41,7 @@ def reformat_languages(languages)
     langz.each { |one_lang, valz|
       #binding.pry
       new_hash[one_lang] = valz
-      if new_hash[one_lang][:style] == nil
+      if new_hash[one_lang].has_key?(:style)
         new_hash[one_lang][:style] = []
         new_hash[one_lang][:style] << type
       else new_hash[one_lang][:style] != nil
