@@ -40,6 +40,7 @@ def reformat_languages(languages)
   languages.each { |type, langz|
     binding.pry
   }
+  binding.pry
 end
 
 reformat_languages(lang_hash)
