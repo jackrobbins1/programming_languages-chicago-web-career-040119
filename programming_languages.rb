@@ -63,7 +63,8 @@ def reformat_languages(languages)
       #binding.pry
     }
   }
-  binding.pry
+  # binding.pry
+  new_hash
 end
 
 reformat_languages(lang_hash)
