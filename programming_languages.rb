@@ -49,16 +49,16 @@ def reformat_languages(languages)
         new_hash[one_lang][:style] = []
         new_hash[one_lang][:style] << type
       end
-      if new_hash[one_lang].has_key?(:style)
-        x = new_hash[one_lang][:style]
-        x << type
-        new_hash[one_lang][:style] = x
-        binding.pry
-      else
-        new_hash[one_lang][:style] = []
-        new_hash[one_lang][:style] << type
-        #binding.pry
-      end
+      # if new_hash[one_lang].has_key?(:style)
+      #   x = new_hash[one_lang][:style]
+      #   x << type
+      #   new_hash[one_lang][:style] = x
+      #   binding.pry
+      # else
+      #   new_hash[one_lang][:style] = []
+      #   new_hash[one_lang][:style] << type
+      #   #binding.pry
+      # end
       #binding.pry
     }
   }
