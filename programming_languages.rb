@@ -39,7 +39,7 @@ def reformat_languages(languages)
 
   languages.each { |type, langz|
     langz.each { |one_lang, valz|
-      binding.pry
+      #binding.pry
     }
   }
   binding.pry
