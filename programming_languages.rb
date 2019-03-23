@@ -44,6 +44,7 @@ def reformat_languages(languages)
       if new_hash[one_lang].has_key?(:style)
         x = new_hash[one_lang][:style]
         x << type
+        binding.pry
       else
         new_hash[one_lang][:style] = []
         new_hash[one_lang][:style] << type
